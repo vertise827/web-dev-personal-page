@@ -1,0 +1,43 @@
+body{
+	margin: 2;
+}
+
+#wrapper{
+	border: 1px solid coral;
+}
+
+#wrapper .header{
+	background-color: darksalmon;
+	height: 200px;
+}
+
+.header .nav a{
+	background-color: bisque;
+	color: darkslategrey;
+	font-weight: bold;
+	padding: 10px;
+	float: left;
+	overflow: auto;
+	text-decoration: none;
+}
+
+.header .nav a:hover{
+	background-color: brown;
+}
+
+.header .nav a.index{
+	background-color: crimson;
+}
+
+.header .name{
+	font-size: 70px;
+	font-weight: bold;
+}
+
+#wrapper .content{
+	background-color: lightpink;
+	height: 450px;
+}
+#wrapper .footer{
+	font-weight: bold;
+}
