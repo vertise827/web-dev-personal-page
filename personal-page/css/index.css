@@ -11,13 +11,17 @@ body{
 	height: 200px;
 }
 
+#likePage{
+	width: 6%;
+}
+
 .header .nav a{
 	background-color: bisque;
 	color: darkslategrey;
 	font-weight: bold;
 	padding: 10px;
 	float: left;
-	overflow: auto;
+	overflow: inherit;
 	text-decoration: none;
 }
 
@@ -36,8 +40,16 @@ body{
 
 #wrapper .content{
 	background-color: lightpink;
-	height: 450px;
+	height: 960px;
 }
+
+#pic_rotation img{
+	width: 30%;
+	height: 380px;
+	
+}
+
+
 #wrapper .footer{
 	font-weight: bold;
 }

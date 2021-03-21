@@ -1,0 +1,39 @@
+.header{
+	background-color: black;
+	height: 120px;
+}
+
+.header .title{
+	color: aliceblue;
+	size: portrait;
+	padding: 20px;
+	/*font-size: 80px;*/
+}
+
+.header .title .awslogo img{
+	height: 11%;
+	width: 11%;
+	float: right;
+	
+}
+
+.content .blog{
+	border: lightgreen 1px solid;
+	margin-top: 5px;
+	background-color: darkgray;
+}
+
+.content .blog .title h3{
+	color: #A52A2A;
+	margin-bottom: 3px;
+}
+
+.content .blog .title a{
+	color: darkred;
+	text-underline: initial;
+}
+
+.content .blog .text{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
