@@ -17,10 +17,30 @@
 	
 }
 
+/*
+.content{
+	background-image: url(../img/arch-example.png);
+	height: 581px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+*/
+
+.content .awsupdate{
+	margin-top:5px;
+	margin-bottom: 5px;
+	border: lightskyblue 1px solid;
+}
+
+.content .awsupdate #awswhatsnew{
+	width: 80%;
+	height: 200px;
+}
 .content .blog{
 	border: lightgreen 1px solid;
 	margin-top: 5px;
 	background-color: darkgray;
+	width: 100%;
 }
 
 .content .blog .title h3{
