@@ -1,0 +1,41 @@
+
+.wrapper .headerpic img{
+    width: 430px;
+	height:210px;
+	margin-top: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid gray 1px;
+}
+
+
+.wrapper .login .credential{
+	padding: 30px;
+}
+
+.wrapper .login .credential a{
+	text-decoration: none;
+	color: darkblue;
+}
+
+.wrapper .login .credential .logincell{
+	border-radius: 5px;
+	height: 20px;
+	padding: 5px;
+}
+
+.wrapper .login .credential .remeberme{
+	font-size: 10px;
+}
+
+.wrapper .login{
+	overflow: auto;
+	border: solid gray 1px;
+	width:430px;
+	height: 160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
